@@ -1,0 +1,82 @@
+.wrapper{
+    position: relative;
+    width:100%;
+    max-width:960px;
+    height:100%; 
+    margin:0 auto;
+    margin-top: 5px;
+}
+
+#content{
+    background-color: rgb(224, 223, 223);
+    position: relative;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#headshot{
+    height: 200px;
+}
+
+hr {
+    color: rgb(107, 107, 107);
+    height: 2px;
+    background-color: rgb(107, 107, 107);
+}
+
+nav {
+    position: relative;
+    top: 0px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+ul {
+    position: relative;
+    right: 220px;
+    width: 300px;
+    height: 25px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: blue;
+    margin: 0px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+    border-right-color: black;
+    float: right;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#name{
+    position: relative;
+    top: 0px;
+    left: 220;
+    width: 90px;
+    float: left;
+    left: 220px;
+    margin:0 auto;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-color: teal;
+    font-size: 16px;
+    z-index: 3;
+}
