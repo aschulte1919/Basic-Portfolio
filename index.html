@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ann Schulte Portfolio</title>
+    <!-- link to css that normalizes browser-->
+    <link href="assets/css/normalize.css" rel="stylesheet" type="text/css">
+    <!-- link to css-->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
-
-    <link href="index.html" type="text/html">
-    <link href="portfolio.html" type="text/html">
-    <link href="contact.html" type="text/html">
+    <!-- link to favicon-->
+    <link href="assets/images/favicon.png" rel="shortcut icon" />
+    <!-- link to other pages in the HTML-->
+    <link href="index.html" rel="import" type="text/html">
+    <link href="portfolio.html" rel="import" type="text/html" >
+    <link href="contact.html" rel="import" type="text/html" >
 </head>
 
+<!-- start of the visible HTML-->
+
 <body>
-        <img src='assets/images/background.png' style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+    <!-- links background image-->
+    <img src='assets/images/background.png' style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;' alt="">
+    <!-- header... name and nav menu-->
     <header>
         <div id="navigation">
             <nav>
@@ -21,21 +31,25 @@
                 <ul>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="index.html">About</a></li>    
+                    <li><a href="index.html">About</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- main content-->
     <div class="wrapper">
         <section id="content">
-            <h2>About</h2>
-            <hr>
-            <img id="headshot" src="assets/images/headshot.png">
-                <p>Lorem ipsum dolor sit amet, pri discere sanctus fabellas ex, nec cu illum luptatum postulant. Vide scribentur ius te, accusam nominavi voluptatibus qui ad. Qui dicit laoreet tincidunt ad, officiis splendide nec ei. Liber quodsi intellegat pro id. Persequeris reprehendunt conclusionemque usu cu. Vis dissentias theophrastus an, has et vide appetere, ne definitiones comprehensam nec.</p>
-
-                <p>Cum ignota aliquid voluptatum an, quo porro semper prompta eu. Has et everti lucilius democritum. Ius in omnis oporteat imperdiet, ad meis brute lobortis duo, ridens appareat cum ad. Ne commodo euripidis eos. Putant quodsi ex est, et quem nusquam duo.</p>
+                <h2>About</h2>
+                <hr>
+            <img id="headshot" src="assets/images/headshot.png" alt="">
+            <p>Lorem ipsum dolor sit amet, pri discere sanctus fabellas ex, nec cu illum luptatum postulant. Vide scribentur ius te, accusam nominavi voluptatibus qui ad. Qui dicit laoreet tincidunt ad, officiis splendide nec ei. Liber quodsi intellegat pro id. Persequeris reprehendunt conclusionemque usu cu. Vis dissentias theophrastus an, has et vide appetere, ne definitiones comprehensam nec.</p>
+            <p>Cum ignota aliquid voluptatum an, quo porro semper prompta eu. Has et everti lucilius democritum. Ius in omnis oporteat imperdiet, ad meis brute lobortis duo, ridens appareat cum ad. Ne commodo euripidis eos. Putant quodsi ex est, et quem nusquam duo.</p>
         </section>
     </div>
+    <div class="footer">
+        <p id="foot">Footer</p>
+    </div>
 </body>
+
 </html>
