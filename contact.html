@@ -43,19 +43,30 @@
 
             <h2>Contact</h2>
             <hr>
-            <form action="action-page.php">
-                Name
+            <form>
+                <div class="form-group">
+                  <label for="name1" style="padding-right: 40px;">Name</label>
+                  <input type="name" class="form-control" id="name1" placeholder="full name">
+                </div>
                 <br>
-                <input type="text" name="Name">
-                <br> Email
+
+                <div class="form-group">
+                    <label for="email1" style="padding-right:  40px;">Email</label>
+                    <input type="email" class="form-control" id="email1" placeholder="example@gmail.com">
+                  </div>
                 <br>
-                <input type="text" name="email">
-                <br> Message
+
+                <div class="form-group">
+                  <label for="message1" style="padding-right: 22px; text-align: top;">Message</label>
+                  <textarea class="form-control" id="message1" placeholder="message" rows="8"></textarea>
+                </div>
                 <br>
-                <input type="text" name="message">
-                <br>
-                <input type="submit" value="Submit">
-            </form>
+
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+                  <br>
+              </form>
         </section>
     </div>
 
